@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= yield :title %></title>
+  <link href="/stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
+  <%= yield :stylesheets %>
+  <%= javascript_include_tag "application" %>
+  <%= yield :javascript %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

@@ -1,0 +1,226 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree . 
+*/
+body {
+  margin:0;
+  background-color:#DEB887
+}
+div#header,
+div#icatch,
+div#icatch_02,
+div#content,
+div#footer {
+  margin:auto;
+  width:800px;
+  background-color:#ffffff;
+  text-align:left;
+}
+div#header {
+  height:80px;
+}
+div#icatch {
+  height:300px;
+  background-image:url(/images/top_01.jpg)
+}
+div#content {
+  margin-left:auto;
+  margin-right:auto
+}
+div#box-A {
+  float:left;
+  padding:0;
+  width:200px;
+  margin-left:20px
+}
+div#link_01 {
+  width:200px;
+  float:left;
+  padding:0;  
+  height:50px
+}
+div#link_02 {
+  float:left;
+  padding:0;
+  height:40px
+}
+div#box-B {
+  margin-left:250px;
+  padding:20px
+}
+div#footer {
+  height:30px;
+  background-color:#00b500;
+  clear:both
+}
+h1 {
+  font-weight:bold;
+  font-size:1.25em;
+  font-family:"Verdana","ＭＳゴシック","Osaka";
+  padding-top:15px;
+  padding-left:20px
+}
+h1 a {
+  font-weight:bold;
+  text-decoration:none;
+  color:#000000
+}
+h1.id {
+  margin:0;
+  float:left;
+  width:400px
+}
+h2 {
+  font-weight:bold;
+  color:#ffffff;
+  font-size:18px;
+  font-family:"Verdana","ＭＳゴシック","Osaka";
+  background-image:url(/images/midashi_01.jpg);
+  background-repeat:no-repeat;
+  margin-bottom:0;
+  padding-top:3.5px;
+  padding-bottom:10px;
+  padding-left:25px;
+  padding-right:25px
+}
+h3 {
+  font-weight:bold;
+  margin-top:10px;
+  background:#98534B;
+  font-size:1em;
+  color:#fff;
+  padding:5px 5px 2px 5px;
+  border-bottom:3px solid #823C34
+}
+h4 {
+  font-weight:bold;
+  border-bottom:1px solid #823C34;
+  padding-bottom:5px
+}
+h5 {
+  font-weight:bold;
+  margin:0;
+  font-size:25px;
+  line-height:40px;
+  font-family:"ヒラギノ明朝 Pro W5","Hiragino Mincho Pro","HGS明朝B","ＭＳ Ｐ明朝",serif;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:bold;
+  margin-left:70px;
+  padding-top:120px;
+  color:#ff9900;
+  text-shadow:0px 0px 10px #fff;
+  text-outline:10px #000000
+}
+h6 {
+  font-weight:bold;
+  margin:0;
+  font-size:25px;
+  line-height:40px;
+  font-family:"Verdana","ＭＳゴシック","Osaka";
+  font-style:normal;
+  font-variant:normal;
+  font-weight:bold;
+  margin-left:50px;
+  padding-top:72px;
+  color:#ffffff
+}
+ul {
+  list-style-type:none;
+  padding-left:0px;
+  margin-top:30px
+}  
+li {
+  margin-left:0;
+  padding-bottom:5px;
+  margin-bottom:20px;
+  font-size:14px;
+  border-bottom:solid 1px #C5C6C7;
+  width:200px
+}     
+li a {
+  text-decoration:none;
+  font-family:"Verdana","ＭＳゴシック","Osaka";
+  background-image:url(/images/mark_02.jpg);
+  background-repeat:no-repeat;
+  padding-bottom:25px;
+  padding-left:25px
+}		 
+p {
+  padding:0.5em;
+  font-size:0.8em;
+  font-family:"Verdana","ＭＳゴシック","Osaka";
+  line-height:1.6
+}
+p.aisatsu {
+  text-align:justify;
+  text-justify:distribute;
+  font-family:"Verdana","ＭＳゴシック","Osaka";
+  font-size:0.9em
+}
+p.link {
+  text-align:justify;
+  text-justify:distribute;
+  font-family:"Verdana","ＭＳゴシック","Osaka";
+  font-size:10px;
+  padding-left:0px;
+  padding-right:0px;
+  line-height:14px;
+  margin:0
+}
+p.renraku {
+  margin-top:0;
+  float:right;
+  width:250px;
+  font-family:"Verdana","ＭＳゴシック","Osaka"
+}
+dl dt {
+  clear:left;
+  float:left;
+  width:8em;
+  padding:10px 0.5em;
+  font-size:0.8em;
+  font-family:"Verdana","ＭＳゴシック","Osaka";
+}
+dl dd {
+  margin-left:0;
+  padding:10px 0.5em 10px 8em;
+  border-bottom:dotted 1px #C5C6C7;
+  font-size:0.8em;
+  font-family:"Verdana","ＭＳゴシック","Osaka";
+  width:400px;
+  color:#98534B
+}
+p.yotei {
+  padding-left:0.5em;
+  font-family:"Verdana","ＭＳゴシック","Osaka";
+  font-size:0.8em;
+  height:100px;
+  overflow:auto
+}
+p.return {
+  text-decoration:none;
+  font-family:"Verdana","ＭＳゴシック","Osaka";
+  text-align:right
+}
+address {
+  font-size:12px;
+  font-style:normal;
+  font-family:"Verdana","ＭＳゴシック","Osaka";
+  color:#ffffff;
+  text-align:center;
+  padding-top:8px
+}
+img {
+  margin-left:0px
+}
+a img {
+  margin:0;
+  padding:0;
+  margin-left:0px;
+  width:200px;
+  height:40px
+}

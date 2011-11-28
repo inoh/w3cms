@@ -1,0 +1,18 @@
+@charset "UTF-8";
+@import url("jquery-ui-1.7.3.custom.css");
+
+/* selector */
+#-manager-input-h1-div {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: none;
+}
+#-manager-input-h1-div textarea {
+  width: 100%;
+  height: 100%;
+}
+.-manager-select {
+  border: 1px solid #000;
+}
+

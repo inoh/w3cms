@@ -1,0 +1,8 @@
+<div style="position: absolute;top: 0;left: 0;">
+  <%= link_to 'Edit', edit_content_path(@content) %> |
+  <%= link_to 'Back', contents_path %>
+</div>
+
+<div id="contents_area">
+  <%= raw @content.note %>
+</div>
